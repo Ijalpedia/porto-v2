@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-300;
+  overflow: hidden; /* Mencegah scroll default body */
+}
+
+/* ⭐ Container untuk Scroll Snapping */
+.snap-container {
+  height: 100vh;
+  width: 100vw;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+/* ⭐ Setiap Section akan di-snap */
+.snap-section {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always; /* ⭐ Memaksa scroll berhenti di setiap section */
+  position: relative;
+}
+
+/* Hide scrollbar untuk tampilan lebih clean (opsional) */
+.snap-container::-webkit-scrollbar {
+  display: none;
+}
+.snap-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* ⭐ Animasi Marquee untuk Projects */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: scroll 35s linear infinite;
+}
+
+/* Berhenti saat di-hover biar user bisa klik */
+.animate-marquee:hover {
+  animation-play-state: paused;
+}

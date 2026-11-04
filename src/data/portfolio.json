@@ -1,0 +1,83 @@
+{
+  "profile": {
+    "name": "Ijalpedia",
+    "role": "Web Developer",
+    "bio": "Halo! Saya Ijal, seorang Web Developer yang fokus membangun aplikasi web yang cepat, responsif, dan user-friendly. Saya suka mengubah ide kompleks menjadi antarmuka yang sederhana dan elegan.",
+    "headline": "I build digital experiences."
+  },
+  "about": {
+    "techStack": [
+      "SiPhp", "SiReact", "SiNextdotjs", "SiLaravel", "SiCodeigniter",
+      "SiMysql", "SiUbuntu", "SiTailwindcss", "SiNginx", "SiJavascript",
+      "SiTypescript", "SiGit", "SiGithub", "SiDocker", "SiNodedotjs",
+      "SiPostman", "SiVite", "SiPostgresql", "SiHtml5"
+    ]
+  },
+  "socials": [
+    { "name": "GitHub", "url": "https://github.com/", "icon": "github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/", "icon": "linkedin" },
+    { "name": "Email", "url": "mailto:email@example.com", "icon": "mail" }
+  ],
+      "projects": [
+    {
+      "id": 1,
+      "title": "Sistem Toko Baju & Sekolah",
+      "description": "Aplikasi manajemen inventaris, stok barang, dan transaksi penjualan untuk toko baju serta perlengkapan sekolah.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": 2,
+      "title": "Sistem Kasir Tahu Aci",
+      "description": "Point of Sales (POS) yang cepat dan sederhana, dirancang khusus untuk UMKM kuliner seperti penjual tahu aci.",
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": 3,
+      "title": "Sistem Laundry",
+      "description": "Manajemen order, pelacakan status cucian, hitung berat, dan laporan keuangan harian untuk usaha laundry.",
+      "image": "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": 4,
+      "title": "Sistem Informasi Gereja",
+      "description": "Portal digital untuk jadwal ibadah, data jemaat, manajemen keuangan, dan informasi kegiatan komunitas.",
+      "image": "https://images.unsplash.com/photo-1438232992991-995b7058bbb3?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": 5,
+      "title": "Integrasi API Spheres Dinkes",
+      "description": "Sistem integrasi dan sinkronisasi data kesehatan dengan API Spheres Dinas Kesehatan Purbalingga.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    },
+    {
+      "id": 6,
+      "title": "Sistem Slip Gaji",
+      "description": "Aplikasi perhitungan gaji otomatis, tunjangan, potongan, dan pencetakan slip gaji karyawan.",
+      "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=800&q=80",
+      "tags": ["PHP", "JavaScript", "MySQL"],
+      "github": "#",
+      "demo": "#"
+    }
+  ],
+  "experiences": [],
+  "contact": {
+    "email": "email@example.com",
+    "phone": "+62 812-3456-7890",
+    "location": "Jakarta, Indonesia"
+  }
+}
