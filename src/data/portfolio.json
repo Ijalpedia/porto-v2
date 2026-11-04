@@ -75,9 +75,14 @@
     }
   ],
   "experiences": [],
+    "socials": [
+    { "name": "GitHub", "url": "https://github.com/Ijalpedia", "icon": "github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com/in/ijalpedia", "icon": "linkedin" },
+    { "name": "Instagram", "url": "https://instagram.com/ijalpedia", "icon": "instagram" }
+  ],
   "contact": {
-    "email": "email@example.com",
+    "email": "ijal@example.com",
     "phone": "+62 812-3456-7890",
-    "location": "Jakarta, Indonesia"
+    "location": "Purbalingga, Jawa Tengah"
   }
 }
